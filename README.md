@@ -4,7 +4,7 @@
 ## 设计模式：MVC
 贪吃蛇游戏采用MVC模式：
 * Model包括：Snake，Map，Node类，是游戏的主要数据逻辑部分
-* View包括：GameView类，用于绘制地图、蛇、食物
+* View包括：GameView类，用于绘制地图、蛇、食物，SnakeApp类，绘制主界面
 * Controller包括：GameController类，接收用户按键处理交互
 * 其他：Directions类，枚举类，定义了方向；Settings类，规定了两个静态变量：Node的大小和每次移动距离
 ***
