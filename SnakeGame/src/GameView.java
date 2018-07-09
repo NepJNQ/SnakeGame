@@ -40,7 +40,7 @@ public class GameView {
     public void showGameOverMessage(){
         int willContinue = JOptionPane.showConfirmDialog(null,"游戏结束，是否重新开始？",null,JOptionPane.YES_NO_OPTION);
         if(willContinue == 0){
-            MyGUI snakeGame = new MyGUI();
+            SnakeApp snakeGame = new SnakeApp();
             snakeGame.init();
         }else{
             System.exit(0);

@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class MyGUI {
+public class SnakeApp {
     private Map map;
     private GameView gameView;
     private GameController gameController;
